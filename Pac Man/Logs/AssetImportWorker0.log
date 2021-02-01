@@ -6084,3 +6084,4 @@ Received Import Request.
 Start importing Assets/Forests_and_Entrace.asset using Guid(8e875f1dc6c21eb4282796081591fc8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f7d68c21b0f02c88c6841c157923f6') in 0.017477 seconds
   Import took 0.019411 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
