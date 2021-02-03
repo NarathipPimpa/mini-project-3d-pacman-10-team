@@ -4,6 +4,8 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
+
+Pac Man/Temp/UnityLockfile
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
@@ -72,4 +74,4 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
-Pac Man/Temp/UnityLockfile
+
