@@ -15,11 +15,11 @@ C:/Users/Mazer/Documents/GitHub/mini-project-3d-pacman-10-team/Pac Man
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64984
+50034
 Successfully changed project path to: C:/Users/Mazer/Documents/GitHub/mini-project-3d-pacman-10-team/Pac Man
 C:/Users/Mazer/Documents/GitHub/mini-project-3d-pacman-10-team/Pac Man
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 29.91 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 30.13 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
@@ -35,192 +35,243 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56980
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56248
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001425 seconds.
+Registered in 0.001439 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 30.01 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 28.99 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.982 seconds
+- Completed reload, in  0.960 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000749 seconds.
+Registered in 0.000693 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.758 seconds
+- Completed reload, in  0.720 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1086 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 64.9 MB.
 System memory in use after: 65.0 MB.
 
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1539.
-Total: 1.965900 ms (FindLiveObjects: 0.319800 ms CreateObjectMapping: 0.098000 ms MarkObjects: 1.486800 ms  DeleteObjects: 0.059400 ms)
+Total: 1.619600 ms (FindLiveObjects: 0.131200 ms CreateObjectMapping: 0.030400 ms MarkObjects: 1.394500 ms  DeleteObjects: 0.062600 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/_ChompMan-PM
-  artifactKey: Guid(c2e4fb082c877a34ba04538eb1f00139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ChompMan-PM using Guid(c2e4fb082c877a34ba04538eb1f00139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c054702a95d2c7c02512c37f33b4918') in 0.009916 seconds
-  Import took 0.011997 seconds .
+  path: Assets/Scripts
+  artifactKey: Guid(ca4b3524cb7968440851b449341d133d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(ca4b3524cb7968440851b449341d133d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3f682059af2eb865204d7998434e41') in 0.008698 seconds
+  Import took 0.010738 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/_ChompMan-PM/Materials/Characters/Ghost_MAT.mat
-  artifactKey: Guid(07a319e011269d640bd54c8681787d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ChompMan-PM/Materials/Characters/Ghost_MAT.mat using Guid(07a319e011269d640bd54c8681787d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce695c8f6e6afb3da1f890e7946c5459') in 0.384126 seconds
-  Import took 0.387267 seconds .
+  Time since last request: 11.570682 seconds.
+  path: Assets/Scripts/PlayerMovement.cs
+  artifactKey: Guid(eea7094eb7dcc92428e568f97d4f0e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerMovement.cs using Guid(eea7094eb7dcc92428e568f97d4f0e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40ce441e0eae4da2586424352fa12ba2') in 0.031215 seconds
+  Import took 0.033981 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000647 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.754 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1076 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.8 MB.
+System memory in use after: 64.9 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1542.
+Total: 2.653500 ms (FindLiveObjects: 0.208100 ms CreateObjectMapping: 0.078800 ms MarkObjects: 2.346300 ms  DeleteObjects: 0.018500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000899 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.752 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1076 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.0 MB.
+System memory in use after: 65.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1544.
+Total: 2.701400 ms (FindLiveObjects: 0.241200 ms CreateObjectMapping: 0.053500 ms MarkObjects: 2.375000 ms  DeleteObjects: 0.030200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/_ChompMan-PM/Materials/Characters/GhostLitBlue_MAT.mat
-  artifactKey: Guid(26bcbe1ab7bf213448c16169f6208712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ChompMan-PM/Materials/Characters/GhostLitBlue_MAT.mat using Guid(26bcbe1ab7bf213448c16169f6208712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e801bdf75fd6f49c9fe6d226d4d1b2d2') in 0.037512 seconds
-  Import took 0.040157 seconds .
+  Time since last request: 48.156981 seconds.
+  path: Assets/Scripts/Camera.cs
+  artifactKey: Guid(e2f106d4e988da14eae24b7e0edd2f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Camera.cs using Guid(e2f106d4e988da14eae24b7e0edd2f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc2fefdc4806858ab63ab0088e4998bb') in 0.006787 seconds
+  Import took 0.009431 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000766 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.710 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1077 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.8 MB.
+System memory in use after: 65.9 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1547.
+Total: 2.879100 ms (FindLiveObjects: 0.207800 ms CreateObjectMapping: 0.039300 ms MarkObjects: 2.612300 ms  DeleteObjects: 0.018400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001257 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.722 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1077 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.0 MB.
+System memory in use after: 66.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1549.
+Total: 1.496200 ms (FindLiveObjects: 0.142500 ms CreateObjectMapping: 0.042900 ms MarkObjects: 1.295900 ms  DeleteObjects: 0.014000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/_ChompMan-PM/Materials/Characters/GhostRed_MAT.mat
-  artifactKey: Guid(6bed19597475a274a834a0c10030ec22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ChompMan-PM/Materials/Characters/GhostRed_MAT.mat using Guid(6bed19597475a274a834a0c10030ec22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f94ca495d06baffb2eb9ea6a043170') in 0.039246 seconds
-  Import took 0.042003 seconds .
+  Time since last request: 160.192110 seconds.
+  path: Assets/_ChompMan-PM/Prefabs
+  artifactKey: Guid(e4c6263f2f9802844bbff6dffecb11d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs using Guid(e4c6263f2f9802844bbff6dffecb11d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a19991ebab285e03282f755aa85cebc4') in 0.007352 seconds
+  Import took 0.009629 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/_ChompMan-PM/Materials/Dots_MAT.mat
-  artifactKey: Guid(c6a50efaab0081444b054e13abc254fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ChompMan-PM/Materials/Dots_MAT.mat using Guid(c6a50efaab0081444b054e13abc254fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '741b6df3e62c772cb626e7577fe2ef7d') in 0.047678 seconds
-  Import took 0.049684 seconds .
+  Time since last request: 0.720336 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Characters
+  artifactKey: Guid(ad1d807701bd44942bfaab9e52ae27fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Characters using Guid(ad1d807701bd44942bfaab9e52ae27fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6022cdca7155354be2f902294e4ec951') in 0.003363 seconds
+  Import took 0.005058 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/_ChompMan-PM/Materials/Characters
-  artifactKey: Guid(90e8c1de91639ec4da276bcd526a689d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ChompMan-PM/Materials/Characters using Guid(90e8c1de91639ec4da276bcd526a689d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18bdcc403c1bb750ad9772abd3c424eb') in 0.007473 seconds
-  Import took 0.009727 seconds .
+  Time since last request: 0.067890 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Characters/Chomp.prefab
+  artifactKey: Guid(d33249e5ae722fb40ad2807c439696d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Characters/Chomp.prefab using Guid(d33249e5ae722fb40ad2807c439696d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f631c8fcd241f876ab277dab0eb79a4') in 0.137928 seconds
+  Import took 0.140235 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000201 seconds.
-  path: Assets/_ChompMan-PM/Materials/Characters/ScaredGhost_MAT.mat
-  artifactKey: Guid(c31e5fac1beb02f4e8774fb2e51e87a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ChompMan-PM/Materials/Characters/ScaredGhost_MAT.mat using Guid(c31e5fac1beb02f4e8774fb2e51e87a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '440b8b6594a1b1c525784dda115ff685') in 0.053175 seconds
-  Import took 0.056299 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/_ChompMan-PM/Materials/Characters/GhostPink_MAT.mat
-  artifactKey: Guid(67282bf1543d7094f85385b73ba1cb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ChompMan-PM/Materials/Characters/GhostPink_MAT.mat using Guid(67282bf1543d7094f85385b73ba1cb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d77f384d6facda995638e3bf6474da') in 0.052526 seconds
-  Import took 0.055080 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/_ChompMan-PM/Materials/Characters/Chomp_MAT.mat
-  artifactKey: Guid(01df7ad55b5244c4791157a1844776ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ChompMan-PM/Materials/Characters/Chomp_MAT.mat using Guid(01df7ad55b5244c4791157a1844776ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a2036a198909018e9bc67a39dcaeac') in 0.062145 seconds
-  Import took 0.064343 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/_ChompMan-PM/Materials
-  artifactKey: Guid(a592cc9ccdf138e4eb0a01289d1aecee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ChompMan-PM/Materials using Guid(a592cc9ccdf138e4eb0a01289d1aecee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae1968058977188fd4941df74991342') in 0.007091 seconds
-  Import took 0.008964 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/_ChompMan-PM/Materials/Characters/GhostOrange_MAT.mat
-  artifactKey: Guid(70ba22ec1dded714d89bcdab0542907c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ChompMan-PM/Materials/Characters/GhostOrange_MAT.mat using Guid(70ba22ec1dded714d89bcdab0542907c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb75b6a0b268a67a36b1f579641aba44') in 0.040749 seconds
-  Import took 0.043337 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 210.304801 seconds.
-  path: Assets/_ChompMan-PM/Mesh
-  artifactKey: Guid(421ef77b75fdef646b7e45db8b74f310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ChompMan-PM/Mesh using Guid(421ef77b75fdef646b7e45db8b74f310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce677cd4e9d3e8e1e76cca35c349c45') in 0.008719 seconds
-  Import took 0.011203 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.657209 seconds.
-  path: Assets/Textures
-  artifactKey: Guid(a1c896ec20299d3449bf50ff5dc4bf40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures using Guid(a1c896ec20299d3449bf50ff5dc4bf40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee86d1c8c9620f73ee37d58c580f345') in 0.008305 seconds
-  Import took 0.010180 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.014069 seconds.
-  path: Assets/Textures/Dead Terrain.png
-  artifactKey: Guid(0e32f8cfc91045d46a10f9ad73d4df52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Dead Terrain.png using Guid(0e32f8cfc91045d46a10f9ad73d4df52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a07de65da590946c2b486218b5dde20a') in 0.033422 seconds
-  Import took 0.035711 seconds .
+  path: Assets/_ChompMan-PM/Prefabs/Characters/Ghost_LitBlue Variant.prefab
+  artifactKey: Guid(41f5bb0172a94a4459eee9900b6bf02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Characters/Ghost_LitBlue Variant.prefab using Guid(41f5bb0172a94a4459eee9900b6bf02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc0bdca25a23fdcb7f64606c7ad1eb31') in 0.061643 seconds
+  Import took 0.064872 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000250 seconds.
-  path: Assets/Textures/Green Terrian.png
-  artifactKey: Guid(d1452656f3ea865489a3452b32bde171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Green Terrian.png using Guid(d1452656f3ea865489a3452b32bde171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce4f086292b59e9256bd6158ab3b11c5') in 0.019995 seconds
-  Import took 0.021973 seconds .
+  path: Assets/_ChompMan-PM/Prefabs/Characters/Ghost_Orange Variant.prefab
+  artifactKey: Guid(bbf054d6e436c51468be981115a84991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Characters/Ghost_Orange Variant.prefab using Guid(bbf054d6e436c51468be981115a84991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7824a28219d10fc288326dde3cd3d02f') in 0.048884 seconds
+  Import took 0.051548 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Textures/Green.terrainlayer
-  artifactKey: Guid(e4929a713fd33e64fb9d19e059726ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Green.terrainlayer using Guid(e4929a713fd33e64fb9d19e059726ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab203d2c2446b888f49da9713874d49c') in 0.035730 seconds
-  Import took 0.038158 seconds .
+  Time since last request: 0.000261 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Characters/Ghost.prefab
+  artifactKey: Guid(f5b04c00596c68849bce306679cbfc06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Characters/Ghost.prefab using Guid(f5b04c00596c68849bce306679cbfc06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdc0947f94984809f9beb7812ed1a1c2') in 0.030957 seconds
+  Import took 0.033662 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/Textures/Dried.terrainlayer
-  artifactKey: Guid(a7a3b796b7387dc42b127488b6a5b955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Dried.terrainlayer using Guid(a7a3b796b7387dc42b127488b6a5b955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e65991c5f86c3456a06e24e260d01f1') in 0.016674 seconds
-  Import took 0.018532 seconds .
+  Time since last request: 0.000229 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Characters/Ghost_Pink Variant.prefab
+  artifactKey: Guid(f4c0092c8046f484a80394f3f076d9d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Characters/Ghost_Pink Variant.prefab using Guid(f4c0092c8046f484a80394f3f076d9d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '658ab1821bc13b493c7d25dd3d2210db') in 0.036454 seconds
+  Import took 0.038963 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Textures/Dried Terrian.png
-  artifactKey: Guid(2d2156cda67e7a349b015953d9add6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Dried Terrian.png using Guid(2d2156cda67e7a349b015953d9add6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2e624085de84c6fa705dcc1dafc6531') in 0.017695 seconds
-  Import took 0.019560 seconds .
+  Time since last request: 0.000220 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Characters/Ghost_Red Variant.prefab
+  artifactKey: Guid(60c2480153d4da841ab193c749b9e87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Characters/Ghost_Red Variant.prefab using Guid(60c2480153d4da841ab193c749b9e87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddbcfdf29781daaac8fc7337a9dc7485') in 0.036020 seconds
+  Import took 0.038636 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Textures/Dead.terrainlayer
-  artifactKey: Guid(c57e32685d6bcdf4e8a074713699697c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Dead.terrainlayer using Guid(c57e32685d6bcdf4e8a074713699697c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd8be4463e9b629eeac281c843ead005') in 0.018854 seconds
-  Import took 0.021043 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000715 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.715 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1077 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.9 MB.
+System memory in use after: 69.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1558.
+Total: 2.007400 ms (FindLiveObjects: 0.175400 ms CreateObjectMapping: 0.032800 ms MarkObjects: 1.780000 ms  DeleteObjects: 0.017700 ms)
 
