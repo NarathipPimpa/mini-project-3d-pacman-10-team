@@ -5,14 +5,18 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public int doublJumpCounter = 1;
-    public CharacterController chomp;
+    public CharacterController characterController;
     public float speed = 10f;
     public float jumpForce;
     public float gravity = -9.81f;
 
     private Vector3 moveDirection;
     public float gravityScale;
-    
+
+    public Transform pivot;
+    public float rotateSpeed;
+
+    public GameObject playerModel;
 
 
     // Start is called before the first frame update
@@ -43,7 +47,7 @@ public class PlayerController : MonoBehaviour
         moveDirection = moveDirection.normalized * speed;
         moveDirection.y = yStore;
 
-        if (chomp.isGrounded) 
+        if (characterController.isGrounded) 
         {
 
             moveDirection.y = 0f;
@@ -55,7 +59,7 @@ public class PlayerController : MonoBehaviour
 
         }
 
-        if (!chomp.isGrounded && doublJumpCounter > 0)
+        if (!characterController.isGrounded && doublJumpCounter > 0)
         {
             if (Input.GetButtonDown("Jump"))
             {
@@ -66,8 +70,17 @@ public class PlayerController : MonoBehaviour
         }
         
         moveDirection.y = moveDirection.y + (gravity * gravityScale);
-        chomp.Move(moveDirection * Time.deltaTime);
+        characterController.Move(moveDirection * Time.deltaTime);
         
+        //move player based on camera look direction
+        if(Input.GetAxisRaw("Horizontal") != 0 || Input.GetAxisRaw("Vertical") != 0)
+        {
+            transform.rotation = Quaternion.Euler(0f, pivot.rotation.eulerAngles.y, 0f);
+            Quaternion newRotation = Quaternion.LookRotation(new Vector3(moveDirection.x, 0f, moveDirection.z));
+            playerModel.transform.rotation = Quaternion.Slerp(playerModel.transform.rotation, newRotation, rotateSpeed * Time.deltaTime);
+        }
+
+
 
 
     }

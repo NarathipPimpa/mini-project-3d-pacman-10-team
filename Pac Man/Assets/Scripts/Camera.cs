@@ -30,8 +30,12 @@ public class Camera : MonoBehaviour
         {
             offset = target.position - transform.position;
         }
+
         pivot.transform.position = target.transform.position;
-        pivot.transform.parent = target.transform;
+        //pivot.transform.parent = target.transform;
+        pivot.transform.parent = null;
+
+
 
         Cursor.lockState = CursorLockMode.Locked;
     }
@@ -39,9 +43,12 @@ public class Camera : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
+
+        pivot.transform.position = target.transform.position;
+
         //get x position of mouse and rotate the target
         float horizontal = Input.GetAxis("Mouse X") * mouseSense;
-        target.Rotate(0, horizontal, 0);
+        pivot.Rotate(0, horizontal, 0);
 
         //get y position of mouse and rotate the target
         float vertical = Input.GetAxis("Mouse Y") * mouseSense;
@@ -59,16 +66,16 @@ public class Camera : MonoBehaviour
         //limit up/down camera rotation
         if (pivot.rotation.eulerAngles.x > maxViewAngle && pivot.rotation.eulerAngles.x < 180f)
         {
-            pivot.rotation = Quaternion.Euler(maxViewAngle, 0, 0);
+            pivot.rotation = Quaternion.Euler(maxViewAngle, pivot.eulerAngles.y, 0);
         }
 
         if (pivot.rotation.eulerAngles.x > 180f && pivot.rotation.eulerAngles.x < 360f + minViewAngle)
         {
-            pivot.rotation = Quaternion.Euler(360f + minViewAngle, 0, 0);
+            pivot.rotation = Quaternion.Euler(360f + minViewAngle, pivot.eulerAngles.y, 0);
         }
 
         //move camera based on the current rotation of the target & the original offset
-        float desiredYAngle = target.eulerAngles.y;
+        float desiredYAngle = pivot.eulerAngles.y;
         float desiredXAngle = pivot.eulerAngles.x;
         Quaternion rotation = Quaternion.Euler(desiredXAngle, desiredYAngle, 0);
         transform.position = target.position - (rotation * offset);
