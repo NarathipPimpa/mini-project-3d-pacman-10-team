@@ -7,6 +7,8 @@ public class FruitsPickup : MonoBehaviour
 
     public int value;
 
+    public GameObject pickupEffect;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +26,8 @@ public class FruitsPickup : MonoBehaviour
         if (other.tag == "Player")
         {
             FindObjectOfType<GameManager>().AddFruits(value);
+
+            Instantiate(pickupEffect, transform.position, transform.rotation);
 
             Destroy(gameObject);
         }

@@ -79,6 +79,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   value: 0
+  pickupEffect: {fileID: 5984496420852593125, guid: 79bb26737bc582049be7418ec3218e2b,
+    type: 3}
 --- !u!1001 &5926841787676671207
 PrefabInstance:
   m_ObjectHideFlags: 0

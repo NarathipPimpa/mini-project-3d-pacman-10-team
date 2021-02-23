@@ -90651,6 +90651,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1666923761}
     m_Modifications:
+    - target: {fileID: 732510338316134032, guid: 366ae50cc881ece47b35774ad1ce51cb,
+        type: 3}
+      propertyPath: pickupEffect
+      value: 
+      objectReference: {fileID: 5984496420852593125, guid: 79bb26737bc582049be7418ec3218e2b,
+        type: 3}
     - target: {fileID: 2344579948132380398, guid: 366ae50cc881ece47b35774ad1ce51cb,
         type: 3}
       propertyPath: m_Name
@@ -90737,6 +90743,12 @@ PrefabInstance:
       propertyPath: value
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -3343257773336501965, guid: 819c30fa19df1be47b8eb931076710ba,
+        type: 3}
+      propertyPath: pickupEffect
+      value: 
+      objectReference: {fileID: 5984496420852593125, guid: 79bb26737bc582049be7418ec3218e2b,
+        type: 3}
     - target: {fileID: 5999758430454517501, guid: 819c30fa19df1be47b8eb931076710ba,
         type: 3}
       propertyPath: m_RootOrder
