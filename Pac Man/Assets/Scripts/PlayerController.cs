@@ -18,6 +18,9 @@ public class PlayerController : MonoBehaviour
 
     public GameObject playerModel;
 
+    public float knockBackForce;
+    public float knockBackTime;
+    private float knockBackCounter;
 
     // Start is called before the first frame update
     void Start()
@@ -28,7 +31,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
         MoveWithGravity();
 
     }
@@ -40,35 +43,44 @@ public class PlayerController : MonoBehaviour
         float z = Input.GetAxis("Vertical");
         //moveDirection = new Vector3(x * speed, moveDirection.y, z * speed);
 
-        //store y before normalized the moveDirection
-        float yStore = moveDirection.y;
-
-        moveDirection = (transform.forward * z) + (transform.right * x);
-        moveDirection = moveDirection.normalized * speed;
-        moveDirection.y = yStore;
-
-        if (characterController.isGrounded) 
+        if (knockBackCounter <= 0)
         {
 
-            moveDirection.y = 0f;
-            doublJumpCounter = 1;
-            if(Input.GetButtonDown("Jump"))
+            //store y before normalized the moveDirection
+            float yStore = moveDirection.y;
+
+            moveDirection = (transform.forward * z) + (transform.right * x);
+            moveDirection = moveDirection.normalized * speed;
+            moveDirection.y = yStore;
+
+            if (characterController.isGrounded)
             {
-                moveDirection.y = jumpForce;
+
+                moveDirection.y = 0f;
+                doublJumpCounter = 1;
+                if (Input.GetButtonDown("Jump"))
+                {
+                    moveDirection.y = jumpForce;
+                }
+
+            }
+
+            if (!characterController.isGrounded && doublJumpCounter > 0)
+            {
+                if (Input.GetButtonDown("Jump"))
+                {
+                    moveDirection.y = jumpForce;
+                    doublJumpCounter = 0;
+                }
+
             }
 
         }
-
-        if (!characterController.isGrounded && doublJumpCounter > 0)
+        else
         {
-            if (Input.GetButtonDown("Jump"))
-            {
-                moveDirection.y = jumpForce;
-                doublJumpCounter = 0;
-            }
-            
+            knockBackCounter -= Time.deltaTime;
         }
-        
+
         moveDirection.y = moveDirection.y + (gravity * gravityScale);
         characterController.Move(moveDirection * Time.deltaTime);
         
@@ -81,8 +93,16 @@ public class PlayerController : MonoBehaviour
         }
 
 
+    }
 
+    public void KnockBack(Vector3 direction)
+    {
+        knockBackCounter = knockBackTime;
 
+        
+
+        moveDirection = direction * knockBackForce;
+        moveDirection.y = knockBackForce;
     }
 
     
