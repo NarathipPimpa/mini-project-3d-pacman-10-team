@@ -27,6 +27,6 @@ public class MenuScript : MonoBehaviour
     // will start the game through the start game button 
     public void StartGame()
     {
-        SceneManager.LoadScene("In_Game"); 
+        SceneManager.LoadScene("World"); 
     }
 }
