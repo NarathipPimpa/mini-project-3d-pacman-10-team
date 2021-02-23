@@ -1,174 +1,729 @@
 Using pre-set license
 Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 16312 MB
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 16196 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Unity.exe
+C:\Program Files\Unity\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Mazer/Documents/GitHub/mini-project-3d-pacman-10-team/Pac Man
+D:/Unity/mini-project-3d-pacman-10-team/Pac Man
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61547
-Successfully changed project path to: C:/Users/Mazer/Documents/GitHub/mini-project-3d-pacman-10-team/Pac Man
-C:/Users/Mazer/Documents/GitHub/mini-project-3d-pacman-10-team/Pac Man
+57976
+Successfully changed project path to: D:/Unity/mini-project-3d-pacman-10-team/Pac Man
+D:/Unity/mini-project-3d-pacman-10-team/Pac Man
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 32.14 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 39.37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Mazer/Documents/GitHub/mini-project-3d-pacman-10-team/Pac Man/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/mini-project-3d-pacman-10-team/Pac Man/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f11)
     Vendor:   
-    VRAM:     8088 MB
+    VRAM:     5980 MB
     Driver:   27.21.14.6140
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56912
+Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56940
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001945 seconds.
+Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002213 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 33.24 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 31.93 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.193 seconds
+- Completed reload, in  0.991 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000866 seconds.
+Registered in 0.000556 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.874 seconds
+- Completed reload, in  0.795 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1091 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.1 MB.
-System memory in use after: 144.2 MB.
+System memory in use before: 144.3 MB.
+System memory in use after: 144.4 MB.
 
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1559.
-Total: 1.777500 ms (FindLiveObjects: 0.153900 ms CreateObjectMapping: 0.041900 ms MarkObjects: 1.505500 ms  DeleteObjects: 0.075000 ms)
+Total: 1.644800 ms (FindLiveObjects: 0.150400 ms CreateObjectMapping: 0.066900 ms MarkObjects: 1.338200 ms  DeleteObjects: 0.088300 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/MenuScript.cs
-  artifactKey: Guid(aa530de10a4475145ba2839192b5b02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MenuScript.cs using Guid(aa530de10a4475145ba2839192b5b02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a47aea37bd1d76bfcfc4f7f592404b7d') in 0.023339 seconds
-  Import took 0.025274 seconds .
+  path: Assets/Prefabs/Tentacle Monster.prefab
+  artifactKey: Guid(9e654d5805574fb40a68984995e109e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tentacle Monster.prefab using Guid(9e654d5805574fb40a68984995e109e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70987b695ac9d22c4b3c7b9d61e14d8f') in 0.156267 seconds
+  Import took 0.161051 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001179 seconds.
-  path: Assets/Scripts/MenuScript.cs
-  artifactKey: Guid(aa530de10a4475145ba2839192b5b02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MenuScript.cs using Guid(aa530de10a4475145ba2839192b5b02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a47aea37bd1d76bfcfc4f7f592404b7d') in 0.003477 seconds
-  Import took 0.005907 seconds .
+  Time since last request: 0.000185 seconds.
+  path: Assets/Prefabs/Player Death Effect.prefab
+  artifactKey: Guid(dfa20fd8b65adc74386f22d7129fd1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player Death Effect.prefab using Guid(dfa20fd8b65adc74386f22d7129fd1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3aa0c87c04c24a0c586c88b4d37879') in 0.010032 seconds
+  Import took 0.012095 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.4 MB.
+System memory in use after: 127.5 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1566.
+Total: 1.897300 ms (FindLiveObjects: 0.125400 ms CreateObjectMapping: 0.033300 ms MarkObjects: 1.727000 ms  DeleteObjects: 0.010700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 210.059587 seconds.
+  path: Assets/Mini Legion Grunt PBR HP Polyart/FreePromo.jpg
+  artifactKey: Guid(647d557aa7bda5d46857ac29a4ea8b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini Legion Grunt PBR HP Polyart/FreePromo.jpg using Guid(647d557aa7bda5d46857ac29a4ea8b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c06a00b628525ced0b2a5e30e27dff') in 0.039435 seconds
+  Import took 0.041795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.662421 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Promotion.jpg
+  artifactKey: Guid(2a5a5f4f146cce3499cfcc7ee45b9b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Promotion.jpg using Guid(2a5a5f4f146cce3499cfcc7ee45b9b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf8b02a3bb648e1afc8f2af05188d89') in 0.014392 seconds
+  Import took 0.016511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.268896 seconds.
+  path: Assets/Mini Legion Footman PBR HP Polyart/PRShot.jpg
+  artifactKey: Guid(8d2d4169e04f0964390b521ba26539af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini Legion Footman PBR HP Polyart/PRShot.jpg using Guid(8d2d4169e04f0964390b521ba26539af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec320290260d3d4bb1795de38626211d') in 0.012086 seconds
+  Import took 0.013980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.416024 seconds.
+  path: Assets/RPGMonsterPartnersPBRPolyart/Meshes/BeholderMesh.fbx
+  artifactKey: Guid(902eedcaf6164ab4aa84bee782b015a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGMonsterPartnersPBRPolyart/Meshes/BeholderMesh.fbx using Guid(902eedcaf6164ab4aa84bee782b015a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc412ccb3b1f4af5dacc01e1ff4d31dc') in 0.070959 seconds
+  Import took 0.073122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/RPGMonsterPartnersPBRPolyart/Meshes/ChestMonsterMesh.fbx
+  artifactKey: Guid(ca0980e90982fe6468542f951647d58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGMonsterPartnersPBRPolyart/Meshes/ChestMonsterMesh.fbx using Guid(ca0980e90982fe6468542f951647d58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857d74dea4ff6beef97bddc07d3de6c1') in 0.024343 seconds
+  Import took 0.026611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/RPGMonsterPartnersPBRPolyart/Meshes/ChestMonsterPBRMesh.fbx
+  artifactKey: Guid(97e7b2e9aff997844b8b8dd53b0fffc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGMonsterPartnersPBRPolyart/Meshes/ChestMonsterPBRMesh.fbx using Guid(97e7b2e9aff997844b8b8dd53b0fffc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9634715c5e8daf19a403a8cc7842cda') in 0.022105 seconds
+  Import took 0.024683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/RPGMonsterPartnersPBRPolyart/Meshes/StageMesh.fbx
+  artifactKey: Guid(b5a28e42e2d833c4c8b1101cb07d8e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGMonsterPartnersPBRPolyart/Meshes/StageMesh.fbx using Guid(b5a28e42e2d833c4c8b1101cb07d8e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f65f1c2a7749ce381156bf4b7238e86e') in 0.014508 seconds
+  Import took 0.016733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/RPGMonsterPartnersPBRPolyart/Meshes/BeholderPBRMesh.fbx
+  artifactKey: Guid(508a4bc4f3fb8b242b65c276ab61a344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGMonsterPartnersPBRPolyart/Meshes/BeholderPBRMesh.fbx using Guid(508a4bc4f3fb8b242b65c276ab61a344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42687b8ddc2fefe069b992164f5a7f1c') in 0.026609 seconds
+  Import took 0.029817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.117879 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Meshes/SlimeMesh.fbx
+  artifactKey: Guid(1f499d0eded7a4245b0c36149a43da4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Meshes/SlimeMesh.fbx using Guid(1f499d0eded7a4245b0c36149a43da4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb7d4a2629f35625e1314061b6d8ce7') in 0.022964 seconds
+  Import took 0.025049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Meshes/StageMesh.fbx
+  artifactKey: Guid(550cdd9b4c76ad645b99cd9eea1bb745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Meshes/StageMesh.fbx using Guid(550cdd9b4c76ad645b99cd9eea1bb745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb8f3ed742ab5ffeafb4cc6956a1e259') in 0.008186 seconds
+  Import took 0.010156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Meshes/SlimeMeshPBR.fbx
+  artifactKey: Guid(032e9c3d6b8f7bd4281b52741574f3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Meshes/SlimeMeshPBR.fbx using Guid(032e9c3d6b8f7bd4281b52741574f3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf749effa0a839a0a38bc45cf65652f') in 0.025658 seconds
+  Import took 0.027463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Meshes/TurtleShellMesh.fbx
+  artifactKey: Guid(56dd4edec19a3b04195448769c085dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Meshes/TurtleShellMesh.fbx using Guid(56dd4edec19a3b04195448769c085dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d6c45d6ee6b25a9a12cf2c595f4559') in 0.025063 seconds
+  Import took 0.027932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Meshes/TurtleShellMeshPBR.fbx
+  artifactKey: Guid(0d3c605385d6d9547a1e3f24e8248962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Meshes/TurtleShellMeshPBR.fbx using Guid(0d3c605385d6d9547a1e3f24e8248962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c28b5db6dece85c4db52ca942684bc') in 0.023373 seconds
+  Import took 0.025533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002858 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Meshes/TurtleShellMeshPBR.fbx
+  artifactKey: Guid(0d3c605385d6d9547a1e3f24e8248962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Meshes/TurtleShellMeshPBR.fbx using Guid(0d3c605385d6d9547a1e3f24e8248962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c28b5db6dece85c4db52ca942684bc') in 0.020489 seconds
+  Import took 0.022730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.438795 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Prefabs/Slime.prefab
+  artifactKey: Guid(a817c29ea6847604bb2c6c51d9a74bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Prefabs/Slime.prefab using Guid(a817c29ea6847604bb2c6c51d9a74bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de323a8055e0c61d20ee45ae4617059') in 0.023192 seconds
+  Import took 0.026100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Prefabs/TurtleShellPBR.prefab
+  artifactKey: Guid(38efdaadbfe1d624bbee439cb02e7661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Prefabs/TurtleShellPBR.prefab using Guid(38efdaadbfe1d624bbee439cb02e7661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad3cea22c1f2f8dcede4fc191cca977') in 0.041200 seconds
+  Import took 0.043878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Prefabs/SlimePBR.prefab
+  artifactKey: Guid(55776efecb0cd134ea5f418c2f97a705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Prefabs/SlimePBR.prefab using Guid(55776efecb0cd134ea5f418c2f97a705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb462c69a54d6b6740f18500cf20a57') in 0.029029 seconds
+  Import took 0.031384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Prefabs/TurtleShell.prefab
+  artifactKey: Guid(3aec22b5d3f3c2947bb81040b56e5f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Prefabs/TurtleShell.prefab using Guid(3aec22b5d3f3c2947bb81040b56e5f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ab2b5d77f55574d5b14978785c2986') in 0.035475 seconds
+  Import took 0.038032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.518668 seconds.
+  path: Assets/RPGMonsterPartnersPBRPolyart/Prefabs/BeholderPBR.prefab
+  artifactKey: Guid(9e6401f8e2320e54797a680db42d218f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGMonsterPartnersPBRPolyart/Prefabs/BeholderPBR.prefab using Guid(9e6401f8e2320e54797a680db42d218f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ecbbce0cd51adf5d8d24fb3a5c83cb') in 0.027362 seconds
+  Import took 0.030397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/RPGMonsterPartnersPBRPolyart/Prefabs/ChestMonsterPBR.prefab
+  artifactKey: Guid(003b064097ba1bd4fa565d0210db6d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGMonsterPartnersPBRPolyart/Prefabs/ChestMonsterPBR.prefab using Guid(003b064097ba1bd4fa565d0210db6d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a9bcdad53cd49e57c550e1950f068f3') in 0.057279 seconds
+  Import took 0.059768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/RPGMonsterPartnersPBRPolyart/Prefabs/BeholderPolyart.prefab
+  artifactKey: Guid(8d791e7885d8c11418ff9fcd9552c337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGMonsterPartnersPBRPolyart/Prefabs/BeholderPolyart.prefab using Guid(8d791e7885d8c11418ff9fcd9552c337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71e0a157c37eb194f07f80cba714e673') in 0.039679 seconds
+  Import took 0.043312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/RPGMonsterPartnersPBRPolyart/Prefabs/ChestMonsterPolyart.prefab
+  artifactKey: Guid(57d21201fb2b7f546be541b5a3517c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGMonsterPartnersPBRPolyart/Prefabs/ChestMonsterPolyart.prefab using Guid(57d21201fb2b7f546be541b5a3517c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff7017f9844c50e8c36b7a3316c73fc9') in 0.034166 seconds
+  Import took 0.036646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.150898 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Materials/PolyartDefault.mat
+  artifactKey: Guid(507d4aa237c275a48b72e5772879be66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Materials/PolyartDefault.mat using Guid(507d4aa237c275a48b72e5772879be66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7baae8d5a7e3ac8dcff3438434a5bec8') in 0.046076 seconds
+  Import took 0.047992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Materials/TurtleShellPBR.mat
+  artifactKey: Guid(b3ad386aba28716448079dcf67d7aede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Materials/TurtleShellPBR.mat using Guid(b3ad386aba28716448079dcf67d7aede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef203b7235c824d58063e807dc021a52') in 0.014469 seconds
+  Import took 0.016288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Materials/Stage.mat
+  artifactKey: Guid(19f8a934c4d1c2b47b1d094b83f39fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Materials/Stage.mat using Guid(19f8a934c4d1c2b47b1d094b83f39fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935c88053340838db2696f23571f277c') in 0.430863 seconds
+  Import took 0.432901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Materials/Skybox_Mat.mat
+  artifactKey: Guid(97f1fc767078c904184a5800339690a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Materials/Skybox_Mat.mat using Guid(97f1fc767078c904184a5800339690a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f1463fc84ceb2d58b0fcf743c8e8a0') in 0.041995 seconds
+  Import took 0.044518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Materials/SlimePBR.mat
+  artifactKey: Guid(d357a802e5ef4d44d829d89dfb1a341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Materials/SlimePBR.mat using Guid(d357a802e5ef4d44d829d89dfb1a341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be87d416b1e7bfd753a88093ab95cfa') in 0.014997 seconds
+  Import took 0.017070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 531.383011 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Animators/TurtleShell.controller
+  artifactKey: Guid(1b58d63f942126347865fbdde70e67c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Animators/TurtleShell.controller using Guid(1b58d63f942126347865fbdde70e67c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587abf7e0b4b08a13ac1a8901816ae04') in 0.012778 seconds
+  Import took 0.016214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.001747 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Animations/TurtleShell/Die_TurtleShell_Anim.fbx
+  artifactKey: Guid(d57bb9f35b232f546851ae283a6a4310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Animations/TurtleShell/Die_TurtleShell_Anim.fbx using Guid(d57bb9f35b232f546851ae283a6a4310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5db61fd4f817abeb3803ce73b41f00f') in 0.030493 seconds
+  Import took 0.032780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Animations/TurtleShell/GetHit_TurtleShell_Anim.fbx
+  artifactKey: Guid(b374e22ebb027494eaf0e15709666b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Animations/TurtleShell/GetHit_TurtleShell_Anim.fbx using Guid(b374e22ebb027494eaf0e15709666b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6aeb8151d5fa8e7ed7aef1d383088d') in 0.026499 seconds
+  Import took 0.028391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Animations/TurtleShell/IdleNormal_TurtleShell_Anim.fbx
+  artifactKey: Guid(1b1e02561fcbcf64c82b7c02dfb9f53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Animations/TurtleShell/IdleNormal_TurtleShell_Anim.fbx using Guid(1b1e02561fcbcf64c82b7c02dfb9f53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc30c667da254d630a8fdf7ec1bd1b6') in 0.022416 seconds
+  Import took 0.024632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Animations/TurtleShell/Dizzy_TurtleShell_Anim.fbx
+  artifactKey: Guid(b8e1da2ff6963da4b8483eeae18b60a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Animations/TurtleShell/Dizzy_TurtleShell_Anim.fbx using Guid(b8e1da2ff6963da4b8483eeae18b60a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2832e9e1a128376e82adb14621e693') in 0.021989 seconds
+  Import took 0.023889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Animations/TurtleShell/IdleNormal_TurtleShell_Anim.fbx
+  artifactKey: Guid(1b1e02561fcbcf64c82b7c02dfb9f53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Animations/TurtleShell/IdleNormal_TurtleShell_Anim.fbx using Guid(1b1e02561fcbcf64c82b7c02dfb9f53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc30c667da254d630a8fdf7ec1bd1b6') in 0.019085 seconds
+  Import took 0.021968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Animations/TurtleShell/IdleBattle_TurtleShell_Anim.fbx
+  artifactKey: Guid(e599599913457404aa360071350dd7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Animations/TurtleShell/IdleBattle_TurtleShell_Anim.fbx using Guid(e599599913457404aa360071350dd7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90f5c23afabddd1a45d62d10b49af380') in 0.027896 seconds
+  Import took 0.030288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Animations/TurtleShell/SenseSomethingRT_TurtleShell_Anim.fbx
+  artifactKey: Guid(ddc2a58dd3a46bc4aae83f0b6792d4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Animations/TurtleShell/SenseSomethingRT_TurtleShell_Anim.fbx using Guid(ddc2a58dd3a46bc4aae83f0b6792d4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73895831dee64d6e5321dc081efd3687') in 0.026342 seconds
+  Import took 0.028417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Animations/TurtleShell/SenseSomethingStart_TurtleShell_Anim.fbx
+  artifactKey: Guid(a6c28cf5fd46b9045a05f90be02cf2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Animations/TurtleShell/SenseSomethingStart_TurtleShell_Anim.fbx using Guid(a6c28cf5fd46b9045a05f90be02cf2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6025c4460d85cce75e892c4a62738bd') in 0.023847 seconds
+  Import took 0.026042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Animations/TurtleShell/Taunt_TurtleShell_Anim.fbx
+  artifactKey: Guid(4bb50d0b13219844eb0abbbf1c15724d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Animations/TurtleShell/Taunt_TurtleShell_Anim.fbx using Guid(4bb50d0b13219844eb0abbbf1c15724d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0090339df139824c8908570f262e4f91') in 0.025836 seconds
+  Import took 0.028619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Animations/TurtleShell/Walk_TurtleShell_Anim.fbx
+  artifactKey: Guid(769c6c4d31c2dad48b0664b47847f7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Animations/TurtleShell/Walk_TurtleShell_Anim.fbx using Guid(769c6c4d31c2dad48b0664b47847f7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c5a1b7b46a2e3bbec53a1d16e13002') in 0.026108 seconds
+  Import took 0.028533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Animations/TurtleShell/Victory_TurtleShell_Anim.fbx
+  artifactKey: Guid(2ce4c828bc03a8f4689ebc72e6dd73bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Animations/TurtleShell/Victory_TurtleShell_Anim.fbx using Guid(2ce4c828bc03a8f4689ebc72e6dd73bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94182fe162bf655a2b343769a9057f19') in 0.029904 seconds
+  Import took 0.032222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Animations/TurtleShell/Run_TurtleShell_Anim.fbx
+  artifactKey: Guid(7167b0d559da22d439a92af6ec59a2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Animations/TurtleShell/Run_TurtleShell_Anim.fbx using Guid(7167b0d559da22d439a92af6ec59a2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8422dea51fb54b2cc6edd07e2f13439a') in 0.028884 seconds
+  Import took 0.031569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.464227 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Animations/TurtleShell/DefendHit_TurtleShell_Anim.fbx
+  artifactKey: Guid(2c6157875a0088f46bb6a78179983ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Animations/TurtleShell/DefendHit_TurtleShell_Anim.fbx using Guid(2c6157875a0088f46bb6a78179983ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97ce9f42a606a77de54c579c37fe48b7') in 0.026034 seconds
+  Import took 0.028119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.504175 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Animations/TurtleShell/Defend_TurtleShell_Anim.fbx
+  artifactKey: Guid(eece6c7b0fef3a74cacd7b1169d86d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Animations/TurtleShell/Defend_TurtleShell_Anim.fbx using Guid(eece6c7b0fef3a74cacd7b1169d86d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae52e321f91d5eaa0bfd36da09d421b3') in 0.027700 seconds
+  Import took 0.030912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005805 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Animations/TurtleShell/Attack02_TurtleShell_Anim.fbx
+  artifactKey: Guid(24d275f677a39b245a5e175f24e345a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Animations/TurtleShell/Attack02_TurtleShell_Anim.fbx using Guid(24d275f677a39b245a5e175f24e345a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd66688118c5dd9bbafa8a62f3a94a437') in 0.024542 seconds
+  Import took 0.026916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021967 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Animations/TurtleShell/Attack01_TurtleShell_Anim.fbx
+  artifactKey: Guid(18d0edd1f2ba4444d9ba9bdf01f251d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Animations/TurtleShell/Attack01_TurtleShell_Anim.fbx using Guid(18d0edd1f2ba4444d9ba9bdf01f251d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b475fe26cc704ef168107896861dd6ce') in 0.025878 seconds
+  Import took 0.028320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003872 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Animations/TurtleShell/Attack01_TurtleShell_Anim.fbx
+  artifactKey: Guid(18d0edd1f2ba4444d9ba9bdf01f251d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Animations/TurtleShell/Attack01_TurtleShell_Anim.fbx using Guid(18d0edd1f2ba4444d9ba9bdf01f251d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b475fe26cc704ef168107896861dd6ce') in 0.022978 seconds
+  Import took 0.025781 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001158 seconds.
+Registered in 0.001376 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.794 seconds
+- Completed reload, in  0.742 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1080 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.6 MB.
-System memory in use after: 144.7 MB.
+System memory in use before: 148.9 MB.
+System memory in use after: 149.0 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1561.
-Total: 1.698900 ms (FindLiveObjects: 0.235900 ms CreateObjectMapping: 0.076900 ms MarkObjects: 1.370800 ms  DeleteObjects: 0.014000 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1607.
+Total: 1.410200 ms (FindLiveObjects: 0.124800 ms CreateObjectMapping: 0.031300 ms MarkObjects: 1.237200 ms  DeleteObjects: 0.016100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 95.182647 seconds.
+  Time since last request: 17.677447 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Animators/Slime.controller
+  artifactKey: Guid(fb53b4d3a4f06844c90da7297e9082de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Animators/Slime.controller using Guid(fb53b4d3a4f06844c90da7297e9082de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d71596a12ab19f131464a054b57412') in 0.023967 seconds
+  Import took 0.026658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.138869 seconds.
+  path: Assets/RPGMonsterPartnersPBRPolyart/Animators
+  artifactKey: Guid(b74f6c56ab607dd48a651a194102ea38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGMonsterPartnersPBRPolyart/Animators using Guid(b74f6c56ab607dd48a651a194102ea38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1251a84603508317fe0309cd44040b2') in 0.005708 seconds
+  Import took 0.007492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.377752 seconds.
   path: Assets/RPGMonsterPartnersPBRPolyart/Animators/Beholder.controller
   artifactKey: Guid(b39c46279bd53fb45b08d4411d6e8a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGMonsterPartnersPBRPolyart/Animators/Beholder.controller using Guid(b39c46279bd53fb45b08d4411d6e8a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0fec16edf377c66e22a34729ee50fa6') in 0.033611 seconds
-  Import took 0.037550 seconds .
+Start importing Assets/RPGMonsterPartnersPBRPolyart/Animators/Beholder.controller using Guid(b39c46279bd53fb45b08d4411d6e8a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86fb4bef4af1c65ddc16321a99f29f13') in 0.016755 seconds
+  Import took 0.019615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.685876 seconds.
+  path: Assets/RPGMonsterPartnersPBRPolyart/Animations/Beholder/Attack03.fbx
+  artifactKey: Guid(3d11518a0dfa99c4680abe474854f15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGMonsterPartnersPBRPolyart/Animations/Beholder/Attack03.fbx using Guid(3d11518a0dfa99c4680abe474854f15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd85e5547ad9471024a81e22b8166f61f') in 0.081104 seconds
+  Import took 0.083143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/RPGMonsterPartnersPBRPolyart/Animations/Beholder/IdleNormal.fbx
+  artifactKey: Guid(5297e14b01f95e5449dc7737bfbc0182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGMonsterPartnersPBRPolyart/Animations/Beholder/IdleNormal.fbx using Guid(5297e14b01f95e5449dc7737bfbc0182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c94c2f451dcdb18c0a5d69e2a9bdfc') in 0.026396 seconds
+  Import took 0.028356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/RPGMonsterPartnersPBRPolyart/Animations/Beholder/GetHit.fbx
+  artifactKey: Guid(f963cdf359d14ab45bc2d03df00ac2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGMonsterPartnersPBRPolyart/Animations/Beholder/GetHit.fbx using Guid(f963cdf359d14ab45bc2d03df00ac2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb74c0d320aeabf75e0a932f62ec27ee') in 0.026800 seconds
+  Import took 0.029365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/RPGMonsterPartnersPBRPolyart/Animations/Beholder/Die.fbx
+  artifactKey: Guid(625e74d907dc48042baa437dc4090641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGMonsterPartnersPBRPolyart/Animations/Beholder/Die.fbx using Guid(625e74d907dc48042baa437dc4090641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1850ec0f93299b4b4f550b637c5c4285') in 0.025918 seconds
+  Import took 0.029494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/RPGMonsterPartnersPBRPolyart/Animations/Beholder/SenseSomethingRPT.fbx
+  artifactKey: Guid(92bd17c705ba003419370e3e00f24fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGMonsterPartnersPBRPolyart/Animations/Beholder/SenseSomethingRPT.fbx using Guid(92bd17c705ba003419370e3e00f24fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4589c386e92842e7ec498fd6010637') in 0.029995 seconds
+  Import took 0.032702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/RPGMonsterPartnersPBRPolyart/Animations/Beholder/Dizzy.fbx
+  artifactKey: Guid(299e850f24e5bee458595c2922e5cc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGMonsterPartnersPBRPolyart/Animations/Beholder/Dizzy.fbx using Guid(299e850f24e5bee458595c2922e5cc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a222132c0a5e56f82a62e98fb5edda2') in 0.026374 seconds
+  Import took 0.028808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/RPGMonsterPartnersPBRPolyart/Animations/Beholder/Victory.fbx
+  artifactKey: Guid(f02c811e98f6ac345952793b3c679526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGMonsterPartnersPBRPolyart/Animations/Beholder/Victory.fbx using Guid(f02c811e98f6ac345952793b3c679526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baab3d78b81f740de3c7a66d7a3c76e1') in 0.026326 seconds
+  Import took 0.028522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/RPGMonsterPartnersPBRPolyart/Animations/Beholder/IdleBattle.fbx
+  artifactKey: Guid(ba902775f0410cc42b746a2e74457bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGMonsterPartnersPBRPolyart/Animations/Beholder/IdleBattle.fbx using Guid(ba902775f0410cc42b746a2e74457bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6878fe0c88c048968c6d0e698338ad1') in 0.027935 seconds
+  Import took 0.031551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/RPGMonsterPartnersPBRPolyart/Animations/Beholder/SenseSomethingST.fbx
+  artifactKey: Guid(6d466dc475c48b540a1682fd76152a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGMonsterPartnersPBRPolyart/Animations/Beholder/SenseSomethingST.fbx using Guid(6d466dc475c48b540a1682fd76152a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f71d3675fc584cf431387b5fe4b86b0c') in 0.031449 seconds
+  Import took 0.033610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/RPGMonsterPartnersPBRPolyart/Animations/Beholder/IdleBattle.fbx
+  artifactKey: Guid(ba902775f0410cc42b746a2e74457bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGMonsterPartnersPBRPolyart/Animations/Beholder/IdleBattle.fbx using Guid(ba902775f0410cc42b746a2e74457bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6878fe0c88c048968c6d0e698338ad1') in 0.025185 seconds
+  Import took 0.027603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/RPGMonsterPartnersPBRPolyart/Animations/Beholder/Taunting.fbx
+  artifactKey: Guid(44514a58f2e3d3049bce7720a415f071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGMonsterPartnersPBRPolyart/Animations/Beholder/Taunting.fbx using Guid(44514a58f2e3d3049bce7720a415f071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10027fee93b502a9aff99c6b5179012f') in 0.026623 seconds
+  Import took 0.029737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/RPGMonsterPartnersPBRPolyart/Animations/Beholder/Run.fbx
+  artifactKey: Guid(5b5fcbba581ef9e459b6f9080806c711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGMonsterPartnersPBRPolyart/Animations/Beholder/Run.fbx using Guid(5b5fcbba581ef9e459b6f9080806c711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d80d7acdfc9ba2521619cea4329745') in 0.030595 seconds
+  Import took 0.033294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.459478 seconds.
+  path: Assets/RPGMonsterPartnersPBRPolyart/Animations/Beholder/WalkBWD.fbx
+  artifactKey: Guid(357b23ce0e3bb5c40bedb0b0b7a4b456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGMonsterPartnersPBRPolyart/Animations/Beholder/WalkBWD.fbx using Guid(357b23ce0e3bb5c40bedb0b0b7a4b456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3863798a3a20b61eec0163c65560c013') in 0.025348 seconds
+  Import took 0.028302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.872628 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Prefabs
+  artifactKey: Guid(8127742742335384f97472bb26841d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Prefabs using Guid(8127742742335384f97472bb26841d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb7f53ccd2edb4e9c58c85a392f922e') in 0.006006 seconds
+  Import took 0.008020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 667.792849 seconds.
+  path: Assets/Prefabs/Turtle Monster.prefab
+  artifactKey: Guid(025fbca97dc036e418ce368d65703444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turtle Monster.prefab using Guid(025fbca97dc036e418ce368d65703444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a70435007cf8ed2ab956493bee4f6cc') in 0.031249 seconds
+  Import took 0.034807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 178.165990 seconds.
+  path: Assets/Prefabs/Turtle Monster.prefab
+  artifactKey: Guid(025fbca97dc036e418ce368d65703444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turtle Monster.prefab using Guid(025fbca97dc036e418ce368d65703444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bdef158cc346d3808ae6df887472717') in 0.020211 seconds
+  Import took 0.023251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012036 seconds.
+  path: Assets/Prefabs/Turtle Monster.prefab
+  artifactKey: Guid(025fbca97dc036e418ce368d65703444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turtle Monster.prefab using Guid(025fbca97dc036e418ce368d65703444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bdef158cc346d3808ae6df887472717') in 0.020037 seconds
+  Import took 0.022954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.655133 seconds.
+  path: Assets/Prefabs/Tentacle Monster.prefab
+  artifactKey: Guid(9e654d5805574fb40a68984995e109e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tentacle Monster.prefab using Guid(9e654d5805574fb40a68984995e109e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552d57c8b0dad609abcd057d4795bfcc') in 0.025841 seconds
+  Import took 0.029880 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000863 seconds.
+Registered in 0.000690 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.820 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1080 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.6 MB.
-System memory in use after: 144.7 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1563.
-Total: 1.640200 ms (FindLiveObjects: 0.193300 ms CreateObjectMapping: 0.045400 ms MarkObjects: 1.388300 ms  DeleteObjects: 0.012200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000957 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.725 seconds
+- Completed reload, in  0.791 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1080 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.6 MB.
-System memory in use after: 144.7 MB.
+System memory in use before: 149.7 MB.
+System memory in use after: 149.8 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1565.
-Total: 2.382900 ms (FindLiveObjects: 0.243800 ms CreateObjectMapping: 0.106400 ms MarkObjects: 2.014400 ms  DeleteObjects: 0.016700 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1610.
+Total: 2.684100 ms (FindLiveObjects: 0.255900 ms CreateObjectMapping: 0.084800 ms MarkObjects: 2.218000 ms  DeleteObjects: 0.123300 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000779 seconds.
+Registered in 0.000727 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.981 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.7 MB.
+System memory in use after: 149.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1612.
+Total: 1.423700 ms (FindLiveObjects: 0.210300 ms CreateObjectMapping: 0.038000 ms MarkObjects: 1.160900 ms  DeleteObjects: 0.012600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 102.805096 seconds.
+  path: Assets/Prefabs/Tentacle Monster.prefab
+  artifactKey: Guid(9e654d5805574fb40a68984995e109e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tentacle Monster.prefab using Guid(9e654d5805574fb40a68984995e109e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc0ea403f3ae0397e7671cc768b06e2') in 0.078282 seconds
+  Import took 0.081537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.866562 seconds.
+  path: Assets/Prefabs/Tentacle Monster.prefab
+  artifactKey: Guid(9e654d5805574fb40a68984995e109e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tentacle Monster.prefab using Guid(9e654d5805574fb40a68984995e109e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94393314c8ea482f29b0008300da9a77') in 0.026829 seconds
+  Import took 0.031735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004165 seconds.
+  path: Assets/Prefabs/Tentacle Monster.prefab
+  artifactKey: Guid(9e654d5805574fb40a68984995e109e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tentacle Monster.prefab using Guid(9e654d5805574fb40a68984995e109e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94393314c8ea482f29b0008300da9a77') in 0.025273 seconds
+  Import took 0.029229 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000676 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
@@ -177,21 +732,68 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.723 seconds
+- Completed reload, in  0.771 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1080 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.6 MB.
-System memory in use after: 144.7 MB.
+System memory in use before: 149.7 MB.
+System memory in use after: 149.8 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1567.
-Total: 1.832600 ms (FindLiveObjects: 0.127900 ms CreateObjectMapping: 0.033200 ms MarkObjects: 1.644300 ms  DeleteObjects: 0.013400 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1615.
+Total: 1.811800 ms (FindLiveObjects: 0.213100 ms CreateObjectMapping: 0.069600 ms MarkObjects: 1.511400 ms  DeleteObjects: 0.016300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 115.190270 seconds.
+  path: Assets/Prefabs/Tentacle Monster.prefab
+  artifactKey: Guid(9e654d5805574fb40a68984995e109e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tentacle Monster.prefab using Guid(9e654d5805574fb40a68984995e109e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '380fe2f36f82800340c20842608c3575') in 0.082658 seconds
+  Import took 0.086138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.800865 seconds.
+  path: Assets/Prefabs/Tentacle Monster.prefab
+  artifactKey: Guid(9e654d5805574fb40a68984995e109e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tentacle Monster.prefab using Guid(9e654d5805574fb40a68984995e109e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '035a937a78017bafe2cd11666e8aa5f5') in 0.027332 seconds
+  Import took 0.030968 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000779 seconds.
+Registered in 0.000928 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.745 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.7 MB.
+System memory in use after: 149.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1618.
+Total: 1.388000 ms (FindLiveObjects: 0.129900 ms CreateObjectMapping: 0.034500 ms MarkObjects: 1.211300 ms  DeleteObjects: 0.011500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 120.337670 seconds.
+  path: Assets/Prefabs/Turtle Monster.prefab
+  artifactKey: Guid(025fbca97dc036e418ce368d65703444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turtle Monster.prefab using Guid(025fbca97dc036e418ce368d65703444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '851e814c9ec8c0f42eb05239e7036796') in 0.073882 seconds
+  Import took 0.076916 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001087 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
@@ -200,15 +802,314 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.753 seconds
+- Completed reload, in  0.770 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1080 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.7 MB.
-System memory in use after: 144.8 MB.
+System memory in use before: 149.7 MB.
+System memory in use after: 149.8 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1569.
-Total: 1.597900 ms (FindLiveObjects: 0.121200 ms CreateObjectMapping: 0.033500 ms MarkObjects: 1.429400 ms  DeleteObjects: 0.013000 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1621.
+Total: 1.451500 ms (FindLiveObjects: 0.136200 ms CreateObjectMapping: 0.035900 ms MarkObjects: 1.266700 ms  DeleteObjects: 0.011700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.331729 seconds.
+  path: Assets/Prefabs/Turtle Monster.prefab
+  artifactKey: Guid(025fbca97dc036e418ce368d65703444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turtle Monster.prefab using Guid(025fbca97dc036e418ce368d65703444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e0c5ee776a131000954bc5b4c2c9a0') in 0.069767 seconds
+  Import took 0.072822 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000730 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.812 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.7 MB.
+System memory in use after: 149.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1624.
+Total: 1.780600 ms (FindLiveObjects: 0.206800 ms CreateObjectMapping: 0.075400 ms MarkObjects: 1.475400 ms  DeleteObjects: 0.021600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.901638 seconds.
+  path: Assets/Prefabs/Tentacle Monster.prefab
+  artifactKey: Guid(9e654d5805574fb40a68984995e109e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tentacle Monster.prefab using Guid(9e654d5805574fb40a68984995e109e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985bbbd15188ed71fb362b1ef0a7a06d') in 0.069392 seconds
+  Import took 0.072867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.892657 seconds.
+  path: Assets/Prefabs/Turtle Monster.prefab
+  artifactKey: Guid(025fbca97dc036e418ce368d65703444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turtle Monster.prefab using Guid(025fbca97dc036e418ce368d65703444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b4628a28470ee99e4e8448f78833848') in 0.022451 seconds
+  Import took 0.025771 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000636 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.756 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.7 MB.
+System memory in use after: 149.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1627.
+Total: 3.412100 ms (FindLiveObjects: 0.363900 ms CreateObjectMapping: 0.153700 ms MarkObjects: 2.865900 ms  DeleteObjects: 0.025700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.149326 seconds.
+  path: Assets/Prefabs/Tentacle Monster.prefab
+  artifactKey: Guid(9e654d5805574fb40a68984995e109e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tentacle Monster.prefab using Guid(9e654d5805574fb40a68984995e109e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee602b5e9e3c4662d503e7224ff352ac') in 0.081259 seconds
+  Import took 0.084871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.333981 seconds.
+  path: Assets/Prefabs/Tentacle Monster.prefab
+  artifactKey: Guid(9e654d5805574fb40a68984995e109e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tentacle Monster.prefab using Guid(9e654d5805574fb40a68984995e109e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04647924a33aa01b9ba9c95a5ad26841') in 0.028145 seconds
+  Import took 0.032029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.952607 seconds.
+  path: Assets/Prefabs/Tentacle Monster.prefab
+  artifactKey: Guid(9e654d5805574fb40a68984995e109e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tentacle Monster.prefab using Guid(9e654d5805574fb40a68984995e109e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f35a8dd538b7fe1c3f3f5a83af4b07') in 0.031945 seconds
+  Import took 0.035495 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000908 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.727 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.8 MB.
+System memory in use after: 149.9 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1630.
+Total: 1.473300 ms (FindLiveObjects: 0.128600 ms CreateObjectMapping: 0.034500 ms MarkObjects: 1.297700 ms  DeleteObjects: 0.011600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.953830 seconds.
+  path: Assets/Prefabs/Tentacle Monster.prefab
+  artifactKey: Guid(9e654d5805574fb40a68984995e109e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tentacle Monster.prefab using Guid(9e654d5805574fb40a68984995e109e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365f88115ed146220b63fd04712cf5f2') in 0.091641 seconds
+  Import took 0.095485 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000612 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.091 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.8 MB.
+System memory in use after: 149.9 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1633.
+Total: 1.945200 ms (FindLiveObjects: 0.214100 ms CreateObjectMapping: 0.042100 ms MarkObjects: 1.673200 ms  DeleteObjects: 0.014600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.137908 seconds.
+  path: Assets/Prefabs/Tentacle Monster.prefab
+  artifactKey: Guid(9e654d5805574fb40a68984995e109e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tentacle Monster.prefab using Guid(9e654d5805574fb40a68984995e109e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c96ba98e1e90bec7311c30f49cb612f4') in 0.113343 seconds
+  Import took 0.118502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.502089 seconds.
+  path: Assets/Prefabs/Tentacle Monster.prefab
+  artifactKey: Guid(9e654d5805574fb40a68984995e109e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tentacle Monster.prefab using Guid(9e654d5805574fb40a68984995e109e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1a2f63c48a66e08142a111672877441') in 0.029747 seconds
+  Import took 0.033654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.266280 seconds.
+  path: Assets/Prefabs/Tentacle Monster.prefab
+  artifactKey: Guid(9e654d5805574fb40a68984995e109e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tentacle Monster.prefab using Guid(9e654d5805574fb40a68984995e109e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d69abd7aab94e174be82aac2614652') in 0.032202 seconds
+  Import took 0.037397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.540487 seconds.
+  path: Assets/B&J Studio/Prefabs
+  artifactKey: Guid(8c34e4b83420acc439fb9fdf5eb73537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/B&J Studio/Prefabs using Guid(8c34e4b83420acc439fb9fdf5eb73537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aef0411567ba0838e6d59133edcd775') in 0.002049 seconds
+  Import took 0.004128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043314 seconds.
+  path: Assets/B&J Studio/Prefabs/Block_0.prefab
+  artifactKey: Guid(d0098c651a091c2489d654e91c104e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/B&J Studio/Prefabs/Block_0.prefab using Guid(d0098c651a091c2489d654e91c104e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '804fda895850a806185d9ba1ad3762b1') in 0.019835 seconds
+  Import took 0.022177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/B&J Studio/Prefabs/Destroy_Arch_0.prefab
+  artifactKey: Guid(dcf501abd826886429776c27baf4294f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/B&J Studio/Prefabs/Destroy_Arch_0.prefab using Guid(dcf501abd826886429776c27baf4294f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '474c09e59ea561763707afb6dfec3835') in 0.018850 seconds
+  Import took 0.021774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/B&J Studio/Prefabs/Destroy_Pillar_2.prefab
+  artifactKey: Guid(196b2a25960a3a346be3e0d76276c3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/B&J Studio/Prefabs/Destroy_Pillar_2.prefab using Guid(196b2a25960a3a346be3e0d76276c3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f41a0dcdc25ce51cc430172ada0dce') in 0.019142 seconds
+  Import took 0.021286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/B&J Studio/Prefabs/Destroy_Plate_1.prefab
+  artifactKey: Guid(7c6732bcc71f2f34790766d1888b3245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/B&J Studio/Prefabs/Destroy_Plate_1.prefab using Guid(7c6732bcc71f2f34790766d1888b3245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dfb4430fd822e85862459094ceda838') in 0.018719 seconds
+  Import took 0.021071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/B&J Studio/Prefabs/Destroy_Plate_2.prefab
+  artifactKey: Guid(9142d3e5dde4d5c4ba88a21dcc41d0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/B&J Studio/Prefabs/Destroy_Plate_2.prefab using Guid(9142d3e5dde4d5c4ba88a21dcc41d0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e06b207f3fa6301c3db72be00b90f655') in 0.017912 seconds
+  Import took 0.020636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/B&J Studio/Prefabs/Destroy_Pillar_0.prefab
+  artifactKey: Guid(665004af0ace15a4ab899add7916a497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/B&J Studio/Prefabs/Destroy_Pillar_0.prefab using Guid(665004af0ace15a4ab899add7916a497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85158837c31ed7d1093bb2cadd8dd913') in 0.023461 seconds
+  Import took 0.025781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/B&J Studio/Prefabs/Block_1.prefab
+  artifactKey: Guid(0a2ed40df3ab29d4f86bc4f571fb4659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/B&J Studio/Prefabs/Block_1.prefab using Guid(0a2ed40df3ab29d4f86bc4f571fb4659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20297fc7bf76fe098debf9cfc2f3b45b') in 0.021844 seconds
+  Import took 0.024415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/B&J Studio/Prefabs/Destroy_Pillar_1.prefab
+  artifactKey: Guid(c1915aebcf518a84f92e9cc87ca646fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/B&J Studio/Prefabs/Destroy_Pillar_1.prefab using Guid(c1915aebcf518a84f92e9cc87ca646fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7af77b2626642694543dfc90835644c') in 0.018944 seconds
+  Import took 0.021873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/B&J Studio/Prefabs/Destroy_Arch_1.prefab
+  artifactKey: Guid(2d2cfbd42876ae64f9889843b2c2c952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/B&J Studio/Prefabs/Destroy_Arch_1.prefab using Guid(2d2cfbd42876ae64f9889843b2c2c952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc8ec7ec3bcb2907dc13ea532bd0b9f6') in 0.018774 seconds
+  Import took 0.021296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/B&J Studio/Prefabs/Block_2.prefab
+  artifactKey: Guid(62f4b24daa0d927499c1eeb6ab022ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/B&J Studio/Prefabs/Block_2.prefab using Guid(62f4b24daa0d927499c1eeb6ab022ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '667716a685c06f321767ee276797567d') in 0.020775 seconds
+  Import took 0.023500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/B&J Studio/Prefabs/Destroy_Plate_3.prefab
+  artifactKey: Guid(d1efde882cad5144fb0e641b4939adaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/B&J Studio/Prefabs/Destroy_Plate_3.prefab using Guid(d1efde882cad5144fb0e641b4939adaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a828e85c74418806c799a95653cd33') in 0.021490 seconds
+  Import took 0.023924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 138.940866 seconds.
+  path: Assets/Prefabs/Tentacle Monster.prefab
+  artifactKey: Guid(9e654d5805574fb40a68984995e109e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tentacle Monster.prefab using Guid(9e654d5805574fb40a68984995e109e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18419773bc0651784b38c45f9d9951b8') in 0.024228 seconds
+  Import took 0.027931 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000666 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.804 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.8 MB.
+System memory in use after: 149.9 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1636.
+Total: 3.329900 ms (FindLiveObjects: 0.302500 ms CreateObjectMapping: 0.072200 ms MarkObjects: 2.927000 ms  DeleteObjects: 0.026000 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
