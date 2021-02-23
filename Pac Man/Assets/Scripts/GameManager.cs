@@ -6,9 +6,11 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
 
-    public int currentFruits;
+    public int currentScore;
+    
 
-    public Text fruitText;
+    public Text scoreText;
+    public Text gemText;
 
 
     // Start is called before the first frame update
@@ -23,10 +25,16 @@ public class GameManager : MonoBehaviour
         
     }
 
-    public void AddFruits(int fruitsToAdd)
+    public void AddScore(int scoreToAdd)
     {
-        currentFruits += fruitsToAdd;
-        fruitText.text = "Fruits Collected: " + currentFruits;
+        currentScore += scoreToAdd;
+        scoreText.text = "Score: " + currentScore;
+    }
+
+    public void AddGem()
+    {
+        gemText.text = "Gems Collected: " + FindObjectOfType<EndGameTrigger>().gems;
+
     }
 
 

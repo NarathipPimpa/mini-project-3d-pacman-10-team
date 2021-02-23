@@ -78,7 +78,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 462434f9b72850349ba2083934f3c477, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
+  value: 1
+  healAmount: 10
   pickupEffect: {fileID: 5984496420852593125, guid: 79bb26737bc582049be7418ec3218e2b,
     type: 3}
 --- !u!1001 &5926841787676671207

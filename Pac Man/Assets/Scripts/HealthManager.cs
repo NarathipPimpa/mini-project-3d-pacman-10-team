@@ -12,10 +12,10 @@ public class HealthManager : MonoBehaviour
     public PlayerController player;
 
     public float invincibilityLength;
-    private float invincibilityCounter;
+    public float invincibilityCounter;
 
     public Renderer playerRenderer;
-    private float flashCounter;
+    public float flashCounter;
     public float flashLength = 0.1f;
 
     private bool isRespawning;

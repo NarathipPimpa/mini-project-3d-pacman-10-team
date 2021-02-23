@@ -7,6 +7,8 @@ public class FruitsPickup : MonoBehaviour
 
     public int value;
 
+    public int healAmount;
+
     public GameObject pickupEffect;
 
     // Start is called before the first frame update
@@ -25,7 +27,9 @@ public class FruitsPickup : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            FindObjectOfType<GameManager>().AddFruits(value);
+            FindObjectOfType<GameManager>().AddScore(value);
+
+            FindObjectOfType<HealthManager>().HealPlayer(healAmount);
 
             Instantiate(pickupEffect, transform.position, transform.rotation);
 
