@@ -26,9 +26,11 @@ public class MegaPelletPickup : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            FindObjectOfType<EndGameTrigger>().gems += value;
+            FindObjectOfType<EndGameTrigger>().gems+= 1;
 
             FindObjectOfType<GameManager>().AddGem();
+
+            FindObjectOfType<GameManager>().AddScore(value);
 
             FindObjectOfType<HealthManager>().invincibilityCounter = 5;
 

@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class HealthManager : MonoBehaviour
 {
@@ -88,11 +89,13 @@ public class HealthManager : MonoBehaviour
 
             currentHealth -= damage;
 
-            if (currentHealth <= 0)
+            if (currentHealth <= 0 && FindObjectOfType<PlayerController>().livesCounter > 0)
             {
+                FindObjectOfType<PlayerController>().livesCounter--;
+                FindObjectOfType<GameManager>().Lives();
                 Respawn();
             }
-            else
+            else if (currentHealth > 0) 
             {
 
                 player.KnockBack(direction);
@@ -102,6 +105,10 @@ public class HealthManager : MonoBehaviour
                 playerRenderer.enabled = false;
 
                 flashCounter = flashLength;
+            }
+            else
+            {
+                SceneManager.LoadScene("Game_Over");
             }
         }
        
@@ -120,6 +127,7 @@ public class HealthManager : MonoBehaviour
 
     public IEnumerator RespawnCo()
     {
+        
         isRespawning = true;
         player.gameObject.SetActive(false);
         Instantiate(deathEffect, player.transform.position, player.transform.rotation);

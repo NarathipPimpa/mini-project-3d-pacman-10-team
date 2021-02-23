@@ -11,12 +11,14 @@ public class GameManager : MonoBehaviour
 
     public Text scoreText;
     public Text gemText;
+    public Text livesText;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        AddGem();
+        Lives();
     }
 
     // Update is called once per frame
@@ -35,6 +37,11 @@ public class GameManager : MonoBehaviour
     {
         gemText.text = "Gems Collected: " + FindObjectOfType<EndGameTrigger>().gems;
 
+    }
+
+    public void Lives()
+    {
+        livesText.text = "Lives Remaining: " + FindObjectOfType<PlayerController>().livesCounter;
     }
 
 
