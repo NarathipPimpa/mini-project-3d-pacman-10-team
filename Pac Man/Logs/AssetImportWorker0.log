@@ -174,3 +174,20 @@ System memory in use after: 144.9 MB.
 Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1567.
 Total: 2.710200 ms (FindLiveObjects: 0.146000 ms CreateObjectMapping: 0.035300 ms MarkObjects: 2.507000 ms  DeleteObjects: 0.019000 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 695.221407 seconds.
+  path: Assets/HealthBar.cs
+  artifactKey: Guid(a31299efc6c5da94aab8ac0e3acb3dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HealthBar.cs using Guid(a31299efc6c5da94aab8ac0e3acb3dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb80362932b0bcc542379b339109b57') in 0.011552 seconds
+  Import took 0.014020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001994 seconds.
+  path: Assets/HealthBar.cs
+  artifactKey: Guid(a31299efc6c5da94aab8ac0e3acb3dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HealthBar.cs using Guid(a31299efc6c5da94aab8ac0e3acb3dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb80362932b0bcc542379b339109b57') in 0.003451 seconds
+  Import took 0.005620 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
