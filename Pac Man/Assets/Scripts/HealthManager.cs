@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class HealthManager : MonoBehaviour
 {
-    public int maxHealth;
+    public int maxHealth = 100;
     public int currentHealth;
 
     public PlayerController player;
@@ -29,10 +29,13 @@ public class HealthManager : MonoBehaviour
     public float fadeSpeed;
     public float waitForFade;
 
+    public HealthBar healthbar;
+
     // Start is called before the first frame update
     void Start()
     {
         currentHealth = maxHealth;
+        healthbar.SetMaxHealth(maxHealth);
 
         player = FindObjectOfType<PlayerController>();
 
@@ -78,8 +81,9 @@ public class HealthManager : MonoBehaviour
                 isFadeFromBlack = false;
             }
         }
-
+       
     }
+
 
     public void HurtPlayer(int damage, Vector3 direction)
     {
@@ -87,6 +91,7 @@ public class HealthManager : MonoBehaviour
         {
 
             currentHealth -= damage;
+            healthbar.SetHealth(currentHealth);
 
             if (currentHealth <= 0)
             {
@@ -152,6 +157,7 @@ public class HealthManager : MonoBehaviour
     public void HealPlayer(int healAmount)
     {
         currentHealth += healAmount;
+        healthbar.SetHealth(currentHealth);
 
         if (currentHealth > maxHealth)
         {
