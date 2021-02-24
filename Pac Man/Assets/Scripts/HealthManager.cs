@@ -7,9 +7,8 @@ using UnityEngine.SceneManagement;
 
 public class HealthManager : MonoBehaviour
 {
-    public int maxHealth;
+    public int maxHealth = 100;
     public int currentHealth;
-
     public PlayerController player;
 
     public float invincibilityLength;
@@ -30,11 +29,12 @@ public class HealthManager : MonoBehaviour
     public float fadeSpeed;
     public float waitForFade;
 
+    public HealthScript healthBar;
     // Start is called before the first frame update
     void Start()
     {
         currentHealth = maxHealth;
-
+        healthBar.SetMaxHealth(currentHealth);
         player = FindObjectOfType<PlayerController>();
 
         respawnPoint = player.transform.position;
@@ -88,7 +88,7 @@ public class HealthManager : MonoBehaviour
         {
 
             currentHealth -= damage;
-
+            healthBar.SetHealth(currentHealth);
             if (currentHealth <= 0 && FindObjectOfType<PlayerController>().livesCounter > 0)
             {
                 FindObjectOfType<PlayerController>().livesCounter--;
@@ -160,7 +160,7 @@ public class HealthManager : MonoBehaviour
     public void HealPlayer(int healAmount)
     {
         currentHealth += healAmount;
-
+        healthBar.SetHealth(currentHealth);
         if (currentHealth > maxHealth)
         {
             currentHealth = maxHealth;
