@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class EndGameTrigger : MonoBehaviour
 {
     // Start is called before the first frame update
-    public int gems; 
+    public int gems = 0; 
     void Start()
     {
         

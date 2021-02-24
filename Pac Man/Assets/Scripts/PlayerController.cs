@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public int livesCounter;
+    public int livesCounter = 2;
     public int doublJumpCounter = 1;
     public CharacterController characterController;
     public float speed = 10f;
