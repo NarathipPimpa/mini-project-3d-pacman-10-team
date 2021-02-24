@@ -23,18 +23,23 @@ public class PlayerController : MonoBehaviour
     public float knockBackTime;
     private float knockBackCounter;
 
+    private bool isCrouched = false;
+    private Vector3 tempSize;
+    private Vector3 tempPosition;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        tempSize = playerModel.transform.localScale;
+        tempPosition = playerModel.transform.localPosition;
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        Crouch();
         MoveWithGravity();
-
+        
     }
 
     void MoveWithGravity()
@@ -106,7 +111,31 @@ public class PlayerController : MonoBehaviour
         moveDirection.y = knockBackForce;
     }
 
-    
+    public void Crouch()
+    { 
+        if (isCrouched == false)
+        {
+            if (Input.GetButtonDown("Fire3"))
+            {
+                playerModel.transform.localScale = new Vector3(playerModel.transform.localScale.x, playerModel.transform.localScale.y / 2, playerModel.transform.localScale.z);
+                playerModel.transform.localPosition = new Vector3(playerModel.transform.localPosition.x, playerModel.transform.localPosition.y-0.2f, playerModel.transform.localPosition.z);
+                isCrouched = true;
+            }
+
+        }
+        else
+        {
+            if (Input.GetButtonDown("Fire3"))
+            {
+                playerModel.transform.localScale = tempSize;
+                playerModel.transform.localPosition = tempPosition;
+                isCrouched = false;
+
+            }
+
+        }
+
+    }    
    
    
 }
