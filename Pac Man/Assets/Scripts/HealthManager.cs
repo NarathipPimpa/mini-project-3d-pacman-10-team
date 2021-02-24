@@ -116,7 +116,7 @@ public class HealthManager : MonoBehaviour
 
     public void Respawn()
     {
-        
+        healthBar.SetHealth(100);
         if(!isRespawning)
         {
             StartCoroutine("RespawnCo");
